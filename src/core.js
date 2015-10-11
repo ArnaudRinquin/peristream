@@ -33,7 +33,9 @@ module.exports = function (pubnub, EventEmitter, fetch, Promise) {
 
     return {
       disconnect: function disconnect() {
-        pub.unsubscribe();
+        pub.unsubscribe({
+          channel: channel
+        });
       },
       connect: function connect() {
         var bus = new EventEmitter();
