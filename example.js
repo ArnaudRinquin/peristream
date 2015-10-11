@@ -1,5 +1,5 @@
 var prompt = require('prompt');
-var peristream = require('./src/node');
+var peristream = require('./index');
 
 prompt.start();
 var schema = {
