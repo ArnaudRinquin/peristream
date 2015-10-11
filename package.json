@@ -3,13 +3,8 @@
   "version": "0.1.2",
   "description": "A wrapper around periscope.tv event streams, allowing you to easilly access them",
   "main": "index.js",
-  "dependencies": {
-    "browserify": "^11.2.0"
-  },
   "scripts": {
-    "start": "node example.js",
-    "build": "browserify src/browser.js -o browser.js",
-    "postinstall": "npm run build"
+    "start": "node example.js"
   },
   "repository": {
     "type": "git",
