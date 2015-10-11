@@ -28,7 +28,9 @@
   },
   "homepage": "https://github.com/ArnaudRinquin/peristream#readme",
   "devDependencies": {
-    "browserify": "^11.2.0",
     "prompt": "^0.2.14"
+  },
+  "dependencies": {
+    "browserify": "^11.2.0"
   }
 }
