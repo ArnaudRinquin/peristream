@@ -1,6 +1,6 @@
 {
   "name": "peristream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A wrapper around periscope.tv event streams, allowing you to easilly access them",
   "main": "src/node",
   "dependencies": {
