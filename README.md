@@ -39,6 +39,10 @@ stream.disconnect();
 
 ## Example
 
+Example browser usage at [`periscope-examples`](https://github.com/ArnaudRinquin/peristream-examples).
+
+For a node exammple, simply:
+
 ```shell
 npm start
 ```
