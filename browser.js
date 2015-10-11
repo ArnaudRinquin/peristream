@@ -10,9 +10,9 @@
   }
 }(this, function (core, EventEmitter) {
 
-  if (!pubnub) {
+  if (typeof PUBNUB === 'undefined') {
     throw new Error('pubnub SDK library must be loaded before peristream');
   }
 
-  return core(pubnub, EventEmitter, fetch, Promise);
+  return core(PUBNUB, EventEmitter, fetch, Promise);
 }));
