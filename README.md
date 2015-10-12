@@ -1,6 +1,6 @@
 # Peristream
 
-A wrapper around [periscope.tv](https://www.periscope.tv/) event streams, allowing you to easilly access them
+A wrapper around [periscope.tv](https://www.periscope.tv/) event streams, allowing you to easilly access them.
 
 ## Usage
 
@@ -41,7 +41,7 @@ stream.disconnect();
 
 Example browser usage at [`periscope-examples`](https://github.com/ArnaudRinquin/peristream-examples).
 
-For a node exammple, simply:
+For a node example, simply:
 
 ```shell
 npm start
