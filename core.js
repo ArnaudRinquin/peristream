@@ -34,7 +34,7 @@ module.exports = function (pubnub, EventEmitter, fetch, Promise) {
     return {
       disconnect: function disconnect() {
         pub.unsubscribe({
-          channel: channel
+          channel: settings.channel
         });
       },
       connect: function connect() {
